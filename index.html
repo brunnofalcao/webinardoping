@@ -80,7 +80,7 @@ p{color:#9B9A97}
 .speaker-section{background:#111114 !important;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06)}
 .speaker-card{display:flex;gap:32px;align-items:center}
 @media(max-width:640px){.speaker-card{flex-direction:column;text-align:center}}
-.speaker-avatar{flex-shrink:0;width:140px;height:140px;border-radius:50%;background:linear-gradient(135deg,rgba(220,38,38,.15),#1E1E24);border:2px solid rgba(220,38,38,.25);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',Georgia,serif;font-size:3rem;font-weight:700;color:#DC2626}
+.speaker-avatar{flex-shrink:0;width:180px;height:180px;border-radius:50%;background:linear-gradient(135deg,rgba(220,38,38,.15),#1E1E24);border:3px solid rgba(220,38,38,.3);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',Georgia,serif;font-size:3rem;font-weight:700;color:#DC2626;box-shadow:0 0 60px rgba(220,38,38,.15)}
 .speaker-info h3{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.8rem;color:#E8E6E3}
 .speaker-info .role{color:#DC2626;font-weight:600;font-size:.9rem;text-transform:uppercase;letter-spacing:.06em;margin-top:4px}
 .speaker-info p{color:#9B9A97;margin-top:12px;font-size:.95rem;line-height:1.6}
@@ -255,7 +255,9 @@ p{color:#9B9A97}
   <div class="container">
     <div class="section-label" style="color:#DC2626;">Palestrante</div>
     <div class="speaker-card">
-      <div class="speaker-avatar">TC</div>
+      <div class="speaker-avatar" style="overflow:hidden;background:#1E1E24;padding:0;font-size:0;">
+        <img src="https://res.cloudinary.com/dlzrfhwin/image/upload/v1776351442/PHOTO-2026-04-16-11-54-26_typchs.jpg" alt="Dr. Thiago Cabral" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:50%;" />
+      </div>
       <div class="speaker-info">
         <h3 style="color:#E8E6E3;">Dr. Thiago Cabral</h3>
         <div class="role" style="color:#DC2626;">Medicina Esportiva & Endocrinologia</div>
